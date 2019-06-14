@@ -8,7 +8,8 @@ nil
 end
 
 def find_max_value(array)
-
+  array.sort!
+  p array[-1]
 
 end
 
